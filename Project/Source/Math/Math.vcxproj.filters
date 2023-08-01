@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Math\Dummy.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Math\Dummy.h" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
