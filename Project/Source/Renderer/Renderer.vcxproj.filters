@@ -1,30 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer\SoftRenderer.cpp" />
-    <ClCompile Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer\Windows\GDIHelper.cpp">
+    <ClCompile Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer\SoftRenderer.cpp" />
+    <ClCompile Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer\Windows\GDIHelper.cpp">
       <Filter>Windows</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer\Windows\WinApplication.cpp">
+    <ClCompile Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer\Windows\WinApplication.cpp">
       <Filter>Windows</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer\Windows\WinMain.cpp">
+    <ClCompile Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer\Windows\WinMain.cpp">
       <Filter>Windows</Filter>
     </ClCompile>
+    <ClCompile Include="MathLibrary.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer\AppDefinition.h" />
-    <ClInclude Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer\SoftRenderer.h" />
-    <ClInclude Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer\Windows\GDIHelper.h">
+    <ClInclude Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer\AppDefinition.h" />
+    <ClInclude Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer\SoftRenderer.h" />
+    <ClInclude Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer\Windows\GDIHelper.h">
       <Filter>Windows</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer\Windows\WinApplication.h">
+    <ClInclude Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer\Windows\WinApplication.h">
       <Filter>Windows</Filter>
     </ClInclude>
+    <ClInclude Include="MathLibrary.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Windows">
-      <UniqueIdentifier>{F95DE4A8-9DAB-3C7D-B50E-0D79C663A920}</UniqueIdentifier>
+      <UniqueIdentifier>{2239B527-7B32-3271-B03C-44AF430ACDA8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

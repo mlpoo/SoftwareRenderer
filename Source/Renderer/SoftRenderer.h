@@ -19,11 +19,11 @@ public:
 
 	void DrawTriangle (i32 XPosA, i32 YPosA, i32 XPosB, i32 YPosB, i32 XPosC, i32 YPosC);
 	void SortVerticesByY(i32 &XPosA, i32 &YPosA, i32 &XPosB,  i32 &YPosB,  i32 &XPosC,  i32 &YPosC);
-	// void SortVerticesByYForFillFlatTraiangle(i32 &XPosA, i32 &YPosA, i32 &XPosB,  i32 &YPosB,  i32 &XPosC,  i32 &YPosC);
 	void FillTopFlatTriangle(i32 XPosA, i32 YPosA, i32 XPosB, i32 YPosB, i32 XPosC, i32 YPosC);
 	void FillBottomFlatTriangle(i32 XPosA, i32 YPosA, i32 XPosB, i32 YPosB, i32 XPosC, i32 YPosC);
 private:
 
 	class GDIHelper* mGDIHelper;
+	// class MathLibrary* mathLibrary;
 
 };

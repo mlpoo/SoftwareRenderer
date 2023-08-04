@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{DECEA2C6-6FAE-3436-B238-1090C562C52E}</ProjectGuid>
+    <ProjectGuid>{2ACE6D48-1775-3479-A420-A2275BEA8540}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Output\Binary\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Output\Binary\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Renderer.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Renderer</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Output\Binary\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Output\Binary\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Renderer.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Renderer</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Output\Binary\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Output\Binary\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Renderer.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Renderer</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Output\Binary\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Output\Binary\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Renderer.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Renderer</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -104,10 +104,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -115,13 +115,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Output\Library\Debug\Math.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Output\Library\Debug\Math.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Yeon/Desktop/Study/02) Chungkang Study/05) SoftwareRanderer/SoftwareRenderer_Base-main/Project/Source/Renderer/Debug/Renderer.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Yeon/Desktop/Study/02) Chungkang Study/05) SoftwareRanderer/SoftwareRenderer_Base-main/Output/Binary/Debug/Renderer.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Yeon/Desktop/Study/02) Chungkang Study/05) SoftwareRanderer/SoftwareRenderer/Project/Source/Renderer/Debug/Renderer.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Yeon/Desktop/Study/02) Chungkang Study/05) SoftwareRanderer/SoftwareRenderer/Output/Binary/Debug/Renderer.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -130,7 +130,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -148,10 +148,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -159,13 +159,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Output\Library\Release\Math.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Output\Library\Release\Math.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Yeon/Desktop/Study/02) Chungkang Study/05) SoftwareRanderer/SoftwareRenderer_Base-main/Project/Source/Renderer/Release/Renderer.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Yeon/Desktop/Study/02) Chungkang Study/05) SoftwareRanderer/SoftwareRenderer_Base-main/Output/Binary/Release/Renderer.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Yeon/Desktop/Study/02) Chungkang Study/05) SoftwareRanderer/SoftwareRenderer/Project/Source/Renderer/Release/Renderer.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Yeon/Desktop/Study/02) Chungkang Study/05) SoftwareRanderer/SoftwareRenderer/Output/Binary/Release/Renderer.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -174,7 +174,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -192,10 +192,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -203,13 +203,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Output\Library\MinSizeRel\Math.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Output\Library\MinSizeRel\Math.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Yeon/Desktop/Study/02) Chungkang Study/05) SoftwareRanderer/SoftwareRenderer_Base-main/Project/Source/Renderer/MinSizeRel/Renderer.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Yeon/Desktop/Study/02) Chungkang Study/05) SoftwareRanderer/SoftwareRenderer_Base-main/Output/Binary/MinSizeRel/Renderer.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Yeon/Desktop/Study/02) Chungkang Study/05) SoftwareRanderer/SoftwareRenderer/Project/Source/Renderer/MinSizeRel/Renderer.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Yeon/Desktop/Study/02) Chungkang Study/05) SoftwareRanderer/SoftwareRenderer/Output/Binary/MinSizeRel/Renderer.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -218,7 +218,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -235,10 +235,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -246,13 +246,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Output\Library\RelWithDebInfo\Math.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Output\Library\RelWithDebInfo\Math.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Yeon/Desktop/Study/02) Chungkang Study/05) SoftwareRanderer/SoftwareRenderer_Base-main/Project/Source/Renderer/RelWithDebInfo/Renderer.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Yeon/Desktop/Study/02) Chungkang Study/05) SoftwareRanderer/SoftwareRenderer_Base-main/Output/Binary/RelWithDebInfo/Renderer.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Yeon/Desktop/Study/02) Chungkang Study/05) SoftwareRanderer/SoftwareRenderer/Project/Source/Renderer/RelWithDebInfo/Renderer.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Yeon/Desktop/Study/02) Chungkang Study/05) SoftwareRanderer/SoftwareRenderer/Output/Binary/RelWithDebInfo/Renderer.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -260,18 +260,20 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer\AppDefinition.h" />
-    <ClCompile Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer\SoftRenderer.cpp" />
-    <ClInclude Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer\SoftRenderer.h" />
-    <ClCompile Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer\Windows\GDIHelper.cpp" />
-    <ClInclude Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer\Windows\GDIHelper.h" />
-    <ClCompile Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer\Windows\WinApplication.cpp" />
-    <ClInclude Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer\Windows\WinApplication.h" />
-    <ClCompile Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer\Windows\WinMain.cpp" />
+    <ClCompile Include="MathLibrary.cpp" />
+    <ClInclude Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer\AppDefinition.h" />
+    <ClCompile Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer\SoftRenderer.cpp" />
+    <ClInclude Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer\SoftRenderer.h" />
+    <ClCompile Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer\Windows\GDIHelper.cpp" />
+    <ClInclude Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer\Windows\GDIHelper.h" />
+    <ClCompile Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer\Windows\WinApplication.cpp" />
+    <ClInclude Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer\Windows\WinApplication.h" />
+    <ClCompile Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer\Windows\WinMain.cpp" />
+    <ClInclude Include="MathLibrary.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Project\Source\Math\Math.vcxproj">
-      <Project>{7D08EE44-461E-3BC3-BA96-688C59CF7619}</Project>
+    <ProjectReference Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Project\Source\Math\Math.vcxproj">
+      <Project>{057778F8-FC54-3C72-A43B-03C4985BDD93}</Project>
       <Name>Math</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,2 +1,7 @@
-﻿  SoftRenderer.cpp
-  Renderer.vcxproj -> C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Output\Binary\Debug\Renderer.exe
+﻿  MathLibrary.cpp
+  SoftRenderer.cpp
+C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer\SoftRenderer.cpp(3,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'MathLibrary.h': No such file or directory
+  GDIHelper.cpp
+  WinApplication.cpp
+  WinMain.cpp
+  코드를 생성하고 있습니다...

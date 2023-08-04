@@ -1,5 +1,6 @@
 #include "SoftRenderer.h"
 #include "Windows/GDIHelper.h"
+// #include "MathLibrary.h"
 
 #define Swap(a, b) {int temp; temp = a; a=b; b=temp;}
 
@@ -44,7 +45,7 @@ void SoftRenderer::DrawLine(const i32 StartXPos, const i32 StartYPos, const i32 
 	int Counter = 0; // x또는 y의 값을 조정할 때 사용한다.
 	int W = EndXPos - StartXPos; // 너비를 구합니다.
 	int H = EndYPos - StartYPos; // 높이를 구합니다.
-
+	
 	if (W < 0) 
 	{
 		AddX = -1; // 음수방향(왼쪽방향)이라면 x의 값이 -1씩 증가되게 해줍니다.
@@ -104,7 +105,7 @@ void SoftRenderer::DrawHorizontalLine(const i32 StartXPos, const i32 EndXPos, co
 	{
 		Swap(x1, x2);
 	}
-	for (int x = StartXPos; x <= EndXPos; x++)
+	for (int x = x1; x <= x2; x++)
 	{
 		DrawPixel(x, y);
 	}
@@ -119,78 +120,70 @@ void SoftRenderer::DrawTriangle(i32 XPosA, i32 YPosA, i32 XPosB, i32 YPosB, i32 
 	DrawLine(XPosA, YPosA, XPosC, YPosC);
 	DrawLine(XPosC, YPosC, XPosB, YPosB);
 	//삼각형을 칠해준다.
-	if((YPosA>YPosB&&YPosC==YPosA)||(YPosA<YPosB&&YPosC==YPosB))
+	if(YPosA==YPosB)
 		FillTopFlatTriangle(XPosA, YPosA, XPosB, YPosB, XPosC, YPosC);
-	else if (YPosA == YPosC || YPosA == YPosB)
+	else if (YPosB == YPosC)
 		FillBottomFlatTriangle(XPosA, YPosA, XPosB, YPosB, XPosC, YPosC);
 	else // 어느곳도 평평하지 않은 삼각형일 때
 	{
+		
 		// 삼각형을 두 개의 평평한 삼각형으로 나눠줄 선을 그리기 위해 임의의 점 D의 좌표를 찾아준다.
-		i32 XPosD = XPosC + ((YPosB - YPosC) / (YPosA - YPosC)) * (XPosA - XPosC); 
+		i32 XPosD = XPosA + (((float)YPosB - (float)YPosA) / ((float)YPosC - (float)YPosA)) * (XPosC - XPosA);
 		i32 YPosD = YPosB;
 	    // D를 기준으로 삼각형 두 개를 칠해준다.
-		FillBottomFlatTriangle(XPosC, YPosC, XPosB, YPosB, XPosD, YPosD);
-		FillTopFlatTriangle(XPosB, YPosB, XPosD, YPosD, XPosA, YPosA);
+		FillBottomFlatTriangle(XPosA, YPosA, XPosD, YPosD, XPosB, YPosB);
+		FillTopFlatTriangle(XPosB, YPosB, XPosD, YPosD, XPosC, YPosC);
 	}
 }
 
 void SoftRenderer::SortVerticesByY(i32 &XPosA, i32 &YPosA, i32 &XPosB, i32 &YPosB, i32 &XPosC, i32 &YPosC)
 {
-	// Y의 크기에 따라 정렬해주는 함수. A<B<C순으로 정렬
+	// Y의 크기에 따라 정렬해주는 함수. A>B>C순으로 정렬
 
-	if (YPosC >= YPosA && YPosC >= YPosB) // C가 가장 클 때
+	if (YPosA >= YPosB && YPosA >= YPosC) // A가 가장 클 때
 	{
-		if (YPosB < YPosA) // A가 B보다 크다면 스왑
+		if (YPosB <= YPosC) 
 		{
-			Swap(YPosA, YPosB);
-			Swap(XPosA, XPosB);
+			Swap(YPosC, YPosB);
+			Swap(XPosC, XPosB);
 			
 		}
 	}
 	else if(YPosB >= YPosA && YPosB >= YPosC) // B가 가장 클 때
 	{
-		// B와 C를 스왑
-		Swap(YPosC, YPosB);
-		Swap(XPosC, XPosB);
+		Swap(YPosA, YPosB);
+		Swap(XPosA, XPosB);
 
-		if(YPosA > YPosB) // 만약 A가 B보다 크다면 스왑
+		if(YPosC >= YPosB)
 		{
-			Swap(YPosA, YPosB);
-			Swap(XPosA, XPosB);
+			Swap(YPosC, YPosB);
+			Swap(XPosC, XPosB);
 		}
 	}
-	else // A가 가장 클 때
+	else // C가 가장 클 때
 	{
-		// A와 C를 스왑
 		Swap(YPosA, YPosC);
 		Swap(XPosA, XPosC);
 
-		if (YPosA > YPosB) // 만약 A가 B보다 크다면 스왑
+		if (YPosC >= YPosB) // 만약 A가 B보다 크다면 스왑
 		{
-			Swap(YPosA, YPosB);
-			Swap(XPosA, XPosB);
+			Swap(YPosC, YPosB);
+			Swap(XPosC, XPosB);
 		}
 	}
-	if (XPosB < XPosA)
-	{
-		// 시계방향으로 만들어주기 위해서
-		Swap(YPosC, YPosB);
-		Swap(XPosC, XPosB);
-	}
-	
 }
 
 void SoftRenderer::FillTopFlatTriangle(i32 XPosA, i32 YPosA, i32 XPosB, i32 YPosB, i32 XPosC, i32 YPosC)
 {
-	float slope1 = (float)(XPosB - XPosA) / (float)(YPosB - YPosA);
-	float slope2 = (float)(XPosC - XPosA) / (float)(YPosC - YPosA);
+	float slope1 = (float)(XPosA - XPosC) / (float)(YPosA - YPosC);
+	float slope2 = (float)(XPosB - XPosC) / (float)(YPosB - YPosC);
 
 	int x1, x2;
 
-	for (int y = YPosA; y <= YPosB; y++) 
+	for (int y = YPosC; y <= YPosB; y++) 
 	{
-		x1 = XPosA + (int)(slope1 * (y - YPosA));
-		x2 = XPosA + (int)(slope2 * (y - YPosA));
+		x1 = XPosC + (int)(slope1 * (y - YPosC));
+		x2 = XPosC + (int)(slope2 * (y - YPosC));
 		DrawHorizontalLine(x1, x2, y);
 	}
 }
@@ -198,14 +191,14 @@ void SoftRenderer::FillTopFlatTriangle(i32 XPosA, i32 YPosA, i32 XPosB, i32 YPos
 void SoftRenderer::FillBottomFlatTriangle(i32 XPosA, i32 YPosA, i32 XPosB, i32 YPosB, i32 XPosC, i32 YPosC)
 {
 	float slope1 = (float)(XPosC - XPosA) / (float)(YPosC - YPosA);
-	float slope2 = (float)(XPosC - XPosB) / (float)(YPosC - YPosB);
+	float slope2 = (float)(XPosB - XPosA) / (float)(YPosB - YPosA);
 
 	int x1, x2;
 
-	for (int y = YPosC; y > YPosA; y--)
+	for (int y = YPosA; y > YPosC; y--)
 	{
-		x1 = XPosC - (int)(slope1 * (y - YPosC));
-		x2 = XPosC - (int)(slope2 * (y - YPosC));
+		x1 = XPosA + (int)(slope1 * (y - YPosA));
+		x2 = XPosA + (int)(slope2 * (y - YPosA));
 		DrawHorizontalLine(x1, x2, y);
 	}
 }
@@ -220,7 +213,7 @@ void SoftRenderer::UpdateFrame()
 	mGDIHelper->SetColor(255, 0, 0); // 선의 색깔을 지정해줍니다.
 	// DrawLine(-200, -100, 100, 100);
 	
-	DrawTriangle(100, 300, -300, 100, 200, 200);
+	DrawTriangle(0, 0, -200, -100, 200, 300);
 	// Buffer Swap 
 	mGDIHelper->BufferSwap();
 }

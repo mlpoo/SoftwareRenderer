@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{85FF8607-4931-3784-9486-A3EB5B7A017E}</ProjectGuid>
+    <ProjectGuid>{BA20489F-6624-3FE0-8F9C-02701261586B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -69,7 +69,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -79,7 +79,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -89,7 +89,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -99,7 +99,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Renderer;C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Source\Math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -110,8 +110,8 @@
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer_Base-main\Project\Source\Renderer\Renderer.vcxproj">
-      <Project>{DECEA2C6-6FAE-3436-B238-1090C562C52E}</Project>
+    <ProjectReference Include="C:\Users\Yeon\Desktop\Study\02) Chungkang Study\05) SoftwareRanderer\SoftwareRenderer\Project\Source\Renderer\Renderer.vcxproj">
+      <Project>{2ACE6D48-1775-3479-A420-A2275BEA8540}</Project>
       <Name>Renderer</Name>
     </ProjectReference>
   </ItemGroup>
